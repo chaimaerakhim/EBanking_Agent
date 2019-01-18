@@ -78,7 +78,9 @@
 				<configuration>
 					<schemaLanguage>WSDL</schemaLanguage>
 					<generatePackage>com.meriame.wsdl</generatePackage>
+<!--
 					<outputDirectory>${project.basedir}/src/main/java</outputDirectory>
+-->
 					<schemas>
 						<schema>
 							<url>http://g-bank.herokuapp.com/services/AgentService?wsdl</url>
